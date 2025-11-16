@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://chat-app-rouge-pi.vercel.app"
+    "https://chat-app-rouge-pi.vercel.app",
     "https://chat-yap.vercel.app"
   ],
   credentials: true,
